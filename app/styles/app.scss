@@ -6,3 +6,42 @@ $primary: $blue;
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
+
+
+.nav {
+  background: $blue;
+
+  &-item a,
+  a.nav-item {
+    color: $white-bis;
+  }
+}
+
+.is-brand {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.button {
+  background: $primary;
+}
+
+.is-relative {
+  position: relative;
+}
+
+.fade-enter-active,
+.fade-leave-active,
+.fade-enter,
+.fade-leave-active {
+  position: absolute;
+  width: 100%;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 600ms;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0;
+}
