@@ -1,6 +1,6 @@
 <template lang="html">
   <div class="">
-    <h1>contact me and stuff like that</h1>
+    <h1>t-shirt stuff and things</h1>
   </div>
 </template>
 

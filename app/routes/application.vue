@@ -10,7 +10,7 @@
     </div>
   </nav>
 
-    <div class="main">
+    <div class="main is-fullheight">
       <div class="section columns">
         <div class="column is-4">
           <div class="panel">
@@ -53,6 +53,30 @@
                  </div>
                </div>
 
+              <div class="media">
+                 <div class="media-left">
+                    <figure class="image is-64x64">
+                      <!-- <img :src="/images/marvel" alt=""> -->
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <router-link :to="{ name: 't-shirts' }" class="subtitle">T-Shirt Order Page</router-link>
+                    <router-link :to="{ name: 't-shirts' }">Closer Look</router-link>
+                 </div>
+               </div>
+
+              <div class="media">
+                 <div class="media-left">
+                    <figure class="image is-64x64">
+                      <!-- <img :src="/images/marvel" alt=""> -->
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <router-link :to="{ name: 't-shirts' }" class="subtitle">T-Shirt Order Page</router-link>
+                    <router-link :to="{ name: 't-shirts' }">Closer Look</router-link>
+                 </div>
+               </div>
+
             </div>
           </div>
         </div>
@@ -62,7 +86,9 @@
               <router-view
               :contact="contact"
               :resume="resume"
-              :marvel="marvel">
+              :marvel="marvel"
+              :netflix="netflix"
+              :t-shirts="t-shirts">
 
               </router-view>
             </transition>
