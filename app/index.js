@@ -9,7 +9,7 @@ import Marvel from './routes/marvel.vue';
 import Resume from './routes/resume.vue';
 import Netflix from './routes/netflix.vue';
 import Tshirts from './routes/t-shirts.vue';
-
+import Monster from './routes/monster.vue';
 
 Vue.use(VueRouter);
 
@@ -44,12 +44,12 @@ const routes = [
     name: 't-shirts',
     component: Tshirts,
   },
-  // {
-  //   path: '/detail/:id',
-  //   name: 'detail',
-  //   component: Detail,
-  //
-  // },
+  {
+    path: '/monster',
+    name: 'monster',
+    component: Monster,
+  },
+
 ];
 
 const router = new VueRouter({

@@ -24,7 +24,7 @@
                     </figure>
                   </div>
                   <div class="media-content">
-                    <router-link :to="{ name: 'marvel' }" class="subtitle">Marvel Series Page</router-link>
+                    <router-link :to="{ name: 'marvel' }" class="heading title is-large">Marvel Series Page</router-link>
                     <router-link :to="{ name: 'marvel' }">Closer Look</router-link>
                  </div>
                </div>
@@ -36,7 +36,7 @@
                     </figure>
                   </div>
                   <div class="media-content">
-                    <router-link :to="{ name: 'netflix' }" class="subtitle">Netflix Search Page</router-link>
+                    <router-link :to="{ name: 'netflix' }" class="heading title is-large">Netflix Search Page</router-link>
                     <router-link :to="{ name: 'netflix' }">Closer Look</router-link>
                  </div>
                </div>
@@ -48,7 +48,7 @@
                     </figure>
                   </div>
                   <div class="media-content">
-                    <router-link :to="{ name: 't-shirts' }" class="subtitle">T-Shirt Order Page</router-link>
+                    <router-link :to="{ name: 't-shirts' }" class="heading title is-large">T-Shirt Order Page</router-link>
                     <router-link :to="{ name: 't-shirts' }">Closer Look</router-link>
                  </div>
                </div>
@@ -60,8 +60,8 @@
                     </figure>
                   </div>
                   <div class="media-content">
-                    <router-link :to="{ name: 't-shirts' }" class="subtitle">T-Shirt Order Page</router-link>
-                    <router-link :to="{ name: 't-shirts' }">Closer Look</router-link>
+                    <router-link :to="{ name: 'monster' }" class="heading title is-large">Monster Maker App</router-link>
+                    <router-link :to="{ name: 'monster' }">Closer Look</router-link>
                  </div>
                </div>
 
@@ -72,7 +72,7 @@
                     </figure>
                   </div>
                   <div class="media-content">
-                    <router-link :to="{ name: 't-shirts' }" class="subtitle">T-Shirt Order Page</router-link>
+                    <router-link :to="{ name: 't-shirts' }" class="heading title is-large">T-Shirt Order Page</router-link>
                     <router-link :to="{ name: 't-shirts' }">Closer Look</router-link>
                  </div>
                </div>
@@ -88,7 +88,8 @@
               :resume="resume"
               :marvel="marvel"
               :netflix="netflix"
-              :t-shirts="t-shirts">
+              :t-shirts="t-shirts"
+              :monster="monster">
 
               </router-view>
             </transition>
