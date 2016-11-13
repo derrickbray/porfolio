@@ -1,5 +1,7 @@
 // @import 'yoga-sass/assets/yoga';
 // @import 'normalize-css/normalize';
+$blue: hsl(217, 71%, 53%);
+$primary: $blue;
 @import 'bulma/bulma';
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
