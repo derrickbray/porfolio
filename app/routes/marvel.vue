@@ -1,27 +1,23 @@
 <template lang="html">
-  <div class="">
-    <div class="detail__head">
 
+  <div class="columns">
 
-      <div class="columns">
-        <div class="column is-two">
-          <h2 class="heading title is-large">About this Site</h2>
-          <p class="subtitle">this does this</p>
+    <div class="column is-10">
+      <h1 class="title has-text-centered">Marvel Series Page</h1>
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img src="" alt="">
+          </figure>
         </div>
-
-        <div class="column is-10">
-          <h1 class="title has-text-centered">Marvel Series Page</h1>
-            <div class="card-image">
-              <figure class="image is-4by3">
-                <img src="" alt="">
-              </figure>
-            </div>
-        </div>
-      </div>
-
-
     </div>
+
+    <div class="column is-two">
+      <h2 class="heading title is-large">About this Site</h2>
+      <p class="subtitle is-small">this does this</p>
+    </div>
+
   </div>
+
 </template>
 
 <script>
