@@ -4,8 +4,8 @@ import VueRouter from 'vue-router';
 
 import App from './routes/application.vue';
 import Index from './routes/index.vue';
-import New from './routes/new.vue';
-import Detail from './routes/detail.vue';
+import Contact from './routes/contact.vue';
+import Marvel from './routes/marvel.vue';
 
 Vue.use(VueRouter);
 
@@ -15,11 +15,16 @@ const routes = [
     name: 'index',
     component: Index,
   },
-  // {
-  //   path: '/new',
-  //   name: 'new',
-  //   component: New,
-  // },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: Contact,
+  },
+  {
+    path: '/marvel',
+    name: 'marvel',
+    component: Marvel,
+  },
   // {
   //   path: '/detail/:id',
   //   name: 'detail',

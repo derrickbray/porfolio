@@ -14,20 +14,45 @@
       <div class="section columns">
         <div class="column is-4">
           <div class="panel">
-            <p class="panel-heading">Adopt a Pupper</p>
-            <div class="panel-block is-active" v-for="puppy in puppies">
+            <p class="panel-heading">Projects</p>
+            <div class="panel-block is-active">
+
               <div class="media">
                  <div class="media-left">
                     <figure class="image is-64x64">
-                      <img :src="puppy.image_url" alt="">
+                      <!-- <img :src="/images/marvel" alt=""> -->
                     </figure>
                   </div>
                   <div class="media-content">
-                    <h2 class="subtitle">{{ puppy.name }}</h2>
-                    <router-link :to="{ name: 'detail', params: {id:puppy.id} }">Read More</router-link>
-
+                    <router-link :to="{ name: 'marvel' }" class="subtitle">Marvel Series Page</router-link>
+                    <router-link :to="{ name: 'marvel' }">Closer Look</router-link>
                  </div>
                </div>
+
+              <div class="media">
+                 <div class="media-left">
+                    <figure class="image is-64x64">
+                      <!-- <img :src="/images/marvel" alt=""> -->
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <router-link :to="{ name: 'netflix' }" class="subtitle">Netflix Search Page</router-link>
+                    <router-link :to="{ name: 'netflix' }">Closer Look</router-link>
+                 </div>
+               </div>
+
+              <div class="media">
+                 <div class="media-left">
+                    <figure class="image is-64x64">
+                      <!-- <img :src="/images/marvel" alt=""> -->
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <router-link :to="{ name: 't-shirts' }" class="subtitle">T-Shirt Order Page</router-link>
+                    <router-link :to="{ name: 't-shirts' }">Closer Look</router-link>
+                 </div>
+               </div>
+
             </div>
           </div>
         </div>
@@ -35,12 +60,10 @@
           <div class="is-relative">
             <transition name="fade">
               <router-view
-                :puppies="puppies"
-                :api-url="apiUrl"
-                @addPuppy="addPuppy"
-                @removePuppy="removePuppy"
-                @updatePuppy="updatePuppy"
-                >
+              :contact="contact"
+              :resume="resume"
+              :marvel="marvel">
+
               </router-view>
             </transition>
           </div>
@@ -49,8 +72,7 @@
     </div>
   </div>
   </template>
-  </div>
-</template>
+
 
 <script>
 export default {
