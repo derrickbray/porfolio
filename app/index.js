@@ -10,6 +10,7 @@ import Resume from './routes/resume.vue';
 import Netflix from './routes/netflix.vue';
 import Tshirts from './routes/t-shirts.vue';
 import Monster from './routes/monster.vue';
+import Twitch from './routes/twitch.vue';
 
 Vue.use(VueRouter);
 
@@ -48,6 +49,11 @@ const routes = [
     path: '/monster',
     name: 'monster',
     component: Monster,
+  },
+  {
+    path: '/twitch',
+    name: 'twitch',
+    component: Twitch,
   },
 
 ];
