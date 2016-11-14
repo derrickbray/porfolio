@@ -6,7 +6,7 @@
       <h1 class="title has-text-centered">Netflix Search Page</h1>
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="" alt="">
+            <img src="/images/netflix.png" alt="">
           </figure>
         </div>
     </div>

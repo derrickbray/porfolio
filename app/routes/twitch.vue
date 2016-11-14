@@ -1,12 +1,11 @@
 <template lang="html">
-
   <div class="columns">
 
     <div class="column is-10">
       <h1 class="title has-text-centered">Monster Maker App</h1>
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="/images/monster.png" alt="">
+            <img src="/images/twitch.png" alt="">
           </figure>
         </div>
     </div>
@@ -23,7 +22,8 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+    };
   },
 
   methods: {

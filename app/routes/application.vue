@@ -32,7 +32,7 @@
               <div class="media">
                  <div class="media-left">
                     <figure class="image is-64x64">
-                      <img src="/images/marvel" alt="">
+                      <img src="/images/netflix.png" alt="">
                     </figure>
                   </div>
                   <div class="media-content">
@@ -44,7 +44,7 @@
               <div class="media">
                  <div class="media-left">
                     <figure class="image is-64x64">
-                      <!-- <img :src="/images/marvel" alt=""> -->
+                      <img src="/images/t-shirts.png" alt="">
                     </figure>
                   </div>
                   <div class="media-content">
@@ -56,7 +56,7 @@
               <div class="media">
                  <div class="media-left">
                     <figure class="image is-64x64">
-                      <!-- <img :src="/images/marvel" alt=""> -->
+                      <img src="/images/monster.png" alt="">
                     </figure>
                   </div>
                   <div class="media-content">
@@ -68,12 +68,12 @@
               <div class="media">
                  <div class="media-left">
                     <figure class="image is-64x64">
-                      <!-- <img :src="/images/marvel" alt=""> -->
+                      <img src="/images/twitch.png" alt="">
                     </figure>
                   </div>
                   <div class="media-content">
-                    <router-link :to="{ name: 't-shirts' }" class="heading title is-large">T-Shirt Order Page</router-link>
-                    <router-link :to="{ name: 't-shirts' }">Closer Look</router-link>
+                    <router-link :to="{ name: 'twitch' }" class="heading title is-large">Twitch</router-link>
+                    <router-link :to="{ name: 'twitch' }">Closer Look</router-link>
                  </div>
                </div>
 
@@ -89,7 +89,8 @@
               :marvel="marvel"
               :netflix="netflix"
               :t-shirts="t-shirts"
-              :monster="monster">
+              :monster="monster"
+              :twitch="twitch">
 
               </router-view>
             </transition>

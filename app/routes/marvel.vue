@@ -6,7 +6,7 @@
       <h1 class="title has-text-centered">Marvel Series Page</h1>
         <div class="card-image">
           <figure class="image is-4by3">
-            <img src="" alt="">
+            <img src="/images/marvel.png" alt="">
           </figure>
         </div>
     </div>
