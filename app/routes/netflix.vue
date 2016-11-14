@@ -1,11 +1,11 @@
 <template lang="html">
 
-  <div class="columns">
+  <div class="stuff">
 
-    <div class="column is-10">
+    <div class="column is-fullwidth">
       <h1 class="title has-text-centered">Netflix Search Page</h1>
         <div class="card-image">
-          <figure class="image is-4by3">
+          <figure class="image is-16by9">
             <img src="/images/netflix.png" alt="">
           </figure>
         </div>

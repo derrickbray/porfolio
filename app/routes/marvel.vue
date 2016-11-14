@@ -1,11 +1,11 @@
 <template lang="html">
 
-  <div class="columns">
+  <div class="stuff">
 
-    <div class="column is-10">
+    <div class="column is-fullwidth">
       <h1 class="title has-text-centered">Marvel Series Page</h1>
         <div class="card-image">
-          <figure class="image is-4by3">
+          <figure class="image iis-16by9">
             <img src="/images/marvel.png" alt="">
           </figure>
         </div>
