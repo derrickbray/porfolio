@@ -20,7 +20,7 @@
               <div class="media">
                  <div class="media-left">
                     <figure class="image is-64x64">
-                      <!-- <img :src="/images/marvel" alt=""> -->
+                      <img src="/images/marvel.png" alt="">
                     </figure>
                   </div>
                   <div class="media-content">
@@ -32,7 +32,7 @@
               <div class="media">
                  <div class="media-left">
                     <figure class="image is-64x64">
-                      <!-- <img :src="/images/marvel" alt=""> -->
+                      <img src="/images/marvel" alt="">
                     </figure>
                   </div>
                   <div class="media-content">

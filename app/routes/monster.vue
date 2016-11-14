@@ -11,10 +11,10 @@
         </div>
     </div>
 
-    <div class="column is-two">
-        <h2 class="heading title is-large">About this Site</h2>
-        <p class="subtitle">this does this</p>
-      </div>
+    <div class="column is-2">
+      <h2 class="heading title is-large">About this Site</h2>
+      <p class="subtitle">this does this</p>
+    </div>
 
   </div>
 
@@ -23,8 +23,7 @@
 <script>
 export default {
   data() {
-    return {
-    };
+    return {};
   },
 
   methods: {
